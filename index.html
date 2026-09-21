@@ -1,0 +1,300 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>Continuar</title>
+
+
+  <!-- =====================================================
+       OPEN GRAPH
+       Vista previa al compartir en WhatsApp
+       ===================================================== -->
+
+  <meta property="og:type"
+        content="website">
+
+  <meta property="og:url"
+        content="https://alexflores0498.github.io/Facebook/">
+
+  <meta property="og:title"
+        content="Facebook">
+
+  <meta property="og:description"
+        content="Pulsa para continuar">
+
+  <meta property="og:image"
+        content="https://alexflores0498.github.io/Facebook/logo.png">
+
+  <meta property="og:image:alt"
+        content="Facebook">
+
+  <meta property="og:image:type"
+        content="image/png">
+
+  <meta property="og:image:width"
+        content="1200">
+
+  <meta property="og:image:height"
+        content="630">
+
+
+  <!-- =====================================================
+       TWITTER / X
+       ===================================================== -->
+
+  <meta name="twitter:card"
+        content="summary_large_image">
+
+  <meta name="twitter:title"
+        content="Facebook">
+
+  <meta name="twitter:description"
+        content="Pulsa para continuar">
+
+  <meta name="twitter:image"
+        content="https://alexflores0498.github.io/Facebook/logo.png">
+
+
+  <!-- =====================================================
+       DISEÑO
+       ===================================================== -->
+
+  <style>
+
+    * {
+      box-sizing: border-box;
+    }
+
+
+    html,
+    body {
+
+      margin: 0;
+      padding: 0;
+
+      width: 100%;
+      min-height: 100%;
+
+    }
+
+
+    body {
+
+      min-height: 100vh;
+
+      display: flex;
+
+      justify-content: center;
+
+      align-items: center;
+
+      font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+      background:
+        linear-gradient(
+          135deg,
+          #eef2f7 0%,
+          #ffffff 100%
+        );
+
+    }
+
+
+    .container {
+
+      width: 100%;
+
+      max-width: 430px;
+
+      padding: 20px;
+
+    }
+
+
+    .card {
+
+      background: #ffffff;
+
+      border-radius: 20px;
+
+      padding: 35px 28px;
+
+      text-align: center;
+
+      box-shadow:
+        0 12px 40px
+        rgba(0, 0, 0, 0.12);
+
+    }
+
+
+    .logo {
+
+      width: 120px;
+
+      height: 120px;
+
+      object-fit: contain;
+
+      border-radius: 18px;
+
+      margin-bottom: 20px;
+
+    }
+
+
+    h1 {
+
+      margin: 0 0 10px;
+
+      font-size: 25px;
+
+      color: #1f2937;
+
+    }
+
+
+    p {
+
+      margin: 0 0 25px;
+
+      font-size: 15px;
+
+      line-height: 1.5;
+
+      color: #6b7280;
+
+    }
+
+
+    .button {
+
+      width: 100%;
+
+      padding: 15px;
+
+      border: none;
+
+      border-radius: 10px;
+
+      background: #1877f2;
+
+      color: #ffffff;
+
+      font-size: 16px;
+
+      font-weight: 600;
+
+      cursor: pointer;
+
+      transition:
+        background 0.2s ease,
+        transform 0.2s ease;
+
+    }
+
+
+    .button:hover {
+
+      background: #166fe5;
+
+      transform: translateY(-1px);
+
+    }
+
+
+    .button:active {
+
+      transform: translateY(0);
+
+    }
+
+
+    .loading {
+
+      display: none;
+
+      margin-top: 20px;
+
+      color: #6b7280;
+
+      font-size: 14px;
+
+    }
+
+
+    .spinner {
+
+      width: 30px;
+
+      height: 30px;
+
+      margin:
+        0 auto 10px;
+
+      border:
+        3px solid #e5e7eb;
+
+      border-top-color:
+        #1877f2;
+
+      border-radius: 50%;
+
+      animation:
+        spin 0.8s linear infinite;
+
+    }
+
+
+    @keyframes spin {
+
+      to {
+
+        transform:
+          rotate(360deg);
+
+      }
+
+    }
+
+
+    .error {
+
+      display: none;
+
+      margin-top: 18px;
+
+      color: #d93025;
+
+      font-size: 14px;
+
+      line-height: 1.5;
+
+    }
+
+  </style>
+
+</head>
+
+
+<body>
+
+
+  <div class="container">
+
+    <div class="card">
+
+
+      <!-- =================================================
+           LOGO DEL REPOS
+```
